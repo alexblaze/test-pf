@@ -3,9 +3,9 @@ import React from "react";
 
 const StartWorking = () => {
   return (
-    <div className="grid grid-cols-8 gap-[32px]">
-      <div className="col-span-3 flex gap-8 flex-col">
-        <p className="sub-title  mb-2 text-white opacity-80">start with us</p>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 text-center md:text-left">
+      <div className="flex flex-col justify-center items-center md:items-start">
+        <p className="sub-title mb-2 text-white opacity-80">start with us</p>
         <h1 className="heading text-white">Start working faster today</h1>
         <p className="card-description text-white">
           We know the best solution for all of your business ideas and we can
@@ -15,9 +15,8 @@ const StartWorking = () => {
           Get Started
         </button>
       </div>
-      <div className="col-span-1"></div>
 
-      <div className="col-span-4">
+      <div className="flex justify-center">
         <Image src="/images/work-side.png" width={698} height={560} />
       </div>
     </div>
