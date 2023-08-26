@@ -16,6 +16,7 @@ module.exports = {
         primary: "#57B3FE",
         textDark: "#3B3E43",
         textGrey: "#595E64",
+        footerBlack: "#0D0D0D",
       },
     },
   },
